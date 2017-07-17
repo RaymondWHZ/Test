@@ -14,6 +14,7 @@
 		943953EE1F1D4EBB00C04884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943953EC1F1D4EBB00C04884 /* LaunchScreen.storyboard */; };
 		943953F91F1D4EBB00C04884 /* FlashcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943953F81F1D4EBB00C04884 /* FlashcardTests.swift */; };
 		943954041F1D4EBB00C04884 /* FlashcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943954031F1D4EBB00C04884 /* FlashcardUITests.swift */; };
+		94B17F401F1D5F62009766C0 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B17F3F1F1D5F62009766C0 /* Flashcard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		943953FF1F1D4EBB00C04884 /* FlashcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943954031F1D4EBB00C04884 /* FlashcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardUITests.swift; sourceTree = "<group>"; };
 		943954051F1D4EBB00C04884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B17F3F1F1D5F62009766C0 /* Flashcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				943953E31F1D4EBB00C04884 /* AppDelegate.swift */,
 				943953E51F1D4EBB00C04884 /* ViewController.swift */,
 				943953E71F1D4EBB00C04884 /* Main.storyboard */,
+				94B17F3F1F1D5F62009766C0 /* Flashcard.swift */,
 				943953EA1F1D4EBB00C04884 /* Assets.xcassets */,
 				943953EC1F1D4EBB00C04884 /* LaunchScreen.storyboard */,
 				943953EF1F1D4EBB00C04884 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B17F401F1D5F62009766C0 /* Flashcard.swift in Sources */,
 				943953E61F1D4EBB00C04884 /* ViewController.swift in Sources */,
 				943953E41F1D4EBB00C04884 /* AppDelegate.swift in Sources */,
 			);
@@ -507,6 +511,7 @@
 				9439540A1F1D4EBB00C04884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9439540B1F1D4EBB00C04884 /* Build configuration list for PBXNativeTarget "FlashcardTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				9439540D1F1D4EBB00C04884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9439540E1F1D4EBB00C04884 /* Build configuration list for PBXNativeTarget "FlashcardUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				943954101F1D4EBB00C04884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

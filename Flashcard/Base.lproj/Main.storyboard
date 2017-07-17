@@ -62,9 +62,16 @@
                             <constraint firstItem="u1B-JY-QbG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lux-E8-1k1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="VIX-Cd-wzl" id="ehV-YT-8ak"/>
+                        <outlet property="ok" destination="bMJ-TK-shW" id="wX1-YL-XbQ"/>
+                        <outlet property="picker" destination="aQA-3V-Pit" id="tVR-xn-Wwn"/>
+                        <outlet property="textview" destination="a6X-m6-eMu" id="vh9-yI-cbo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="401" y="-3"/>
         </scene>
     </scenes>
 </document>

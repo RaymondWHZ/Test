@@ -8,11 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDelegate{
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textview: UITextView!
+    @IBOutlet weak var picker: UIPickerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupCardUI()
         // Do any additional setup after loading the view, typically from a nib.
+        picker.dataSource=self
+        picker.delegate=self
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +27,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func setupCardUI() {
+        textview.text = CardCollection.instance.currentCard.question
+        
+        label.text = "Question \(CardCollection.instance.currentIndex + 1)/\(CardCollection.instance.cards.count)"
+    }
 }
 
