@@ -32,5 +32,17 @@ class ViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDeleg
         
         label.text = "Question \(CardCollection.instance.currentIndex + 1)/\(CardCollection.instance.cards.count)"
     }
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int{
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return CardCollection.instance.currentCard.options.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return CardCollection.instance.currentCard.options[row]
+    }
 }
 
